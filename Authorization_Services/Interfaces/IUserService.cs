@@ -7,8 +7,7 @@ namespace Authorization_Services.Interfaces
 {
     public interface IUserService
     {
-        Task AddUserToRole(Guid userId, string role);
-        Task RemoveUserFromRole(Guid userId, string role);
+        Task ChangeRole(Guid userId, string role);
         Task AddUserAttempt(Guid userId, Guid testId);
         Task<bool> ChangeUserLogin(Guid userId, string newLogin);
         Task<bool> ChangeUserPassword(Guid userId, string newPassword);

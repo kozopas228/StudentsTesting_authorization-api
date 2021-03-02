@@ -19,22 +19,12 @@ namespace Authorization_Services.Implementation
             _tempAttemptRepository = tempAttemptRepository;
         }
 
-        public async Task AddUserToRole(Guid userId, string role)
+        public async Task ChangeRole(Guid userId, string role)
         {
             var allUsers = await _userRepository.GetAllAsync();
             var user = allUsers.First(x => x.Id == userId);
 
             user.Role = role;
-
-            await _userRepository.UpdateAsync(user);
-        }
-
-        public async Task RemoveUserFromRole(Guid userId, string role)
-        {
-            var allUsers = await _userRepository.GetAllAsync();
-            var user = allUsers.First(x => x.Id == userId);
-
-            user.Role = "user";
 
             await _userRepository.UpdateAsync(user);
         }

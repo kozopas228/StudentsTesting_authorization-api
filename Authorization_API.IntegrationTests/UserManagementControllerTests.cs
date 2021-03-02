@@ -47,11 +47,11 @@ namespace Authorization_API.IntegrationTests
         }
 
         [Fact]
-        public async Task AddToRole_UserRoleChanged()
+        public async Task ChangeRole_UserRoleChanged()
         {
             var lastUser = _fixture.DbContext.Users.First();
 
-            var response = await _fixture.Client.GetAsync("api/UserManagement/AddToRole?userId=" + lastUser.Id+"&role="+"test");
+            var response = await _fixture.Client.GetAsync("api/UserManagement/ChangeRole?userId=" + lastUser.Id+"&role="+"test");
 
             var stringResponse = JsonConvert.DeserializeObject<IEnumerable<User>>
                 (await _fixture.Client.GetStringAsync("api/UserCrud/"))
@@ -60,19 +60,6 @@ namespace Authorization_API.IntegrationTests
             Assert.Equal("test",stringResponse.Role);
         }
 
-        [Fact]
-        public async Task RemoveFromRole_UserRoleBecomesUser()
-        {
-            var lastUser = _fixture.DbContext.Users.Last();
-
-            var response = await _fixture.Client.GetAsync("api/UserManagement/RemoveFromRole?userId=" + lastUser.Id + "&role=" + "test");
-
-            var stringResponse = JsonConvert.DeserializeObject<IEnumerable<User>>
-                    (await _fixture.Client.GetStringAsync("api/UserCrud/"))
-                .First(x => x.Id == lastUser.Id);
-
-            Assert.Equal("user", stringResponse.Role);
-        }
 
         [Fact]
         public async Task AddUserAttempt_AttemptAdded()

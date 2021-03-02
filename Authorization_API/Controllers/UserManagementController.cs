@@ -19,6 +19,7 @@ namespace Authorization_API.Controllers
         {
             _service = service;
         }
+
         [HttpGet("GetIdByLogin")]
         public async Task<IActionResult> GetUserId(string login)
         {
@@ -31,17 +32,10 @@ namespace Authorization_API.Controllers
             return new JsonResult(await _service.GetAttemptsById(id));
         }
 
-        [HttpGet("AddToRole")]
-        public async Task<IActionResult> AddUserToRole(Guid userId, string role)
+        [HttpGet("ChangeRole")]
+        public async Task<IActionResult> ChangeRole(Guid userId, string role)
         {
-            await _service.AddUserToRole(userId, role);
-            return Ok();
-        }
-
-        [HttpGet("RemoveFromRole")]
-        public async Task<IActionResult> RemoveUserFromRole(Guid userId, string role)
-        {
-            await _service.RemoveUserFromRole(userId, role);
+            await _service.ChangeRole(userId, role);
             return Ok();
         }
 
