@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Authorization_Data\Authorization_Data.csproj" />
+    <ProjectReference Include="..\Authorization_Models\Authorization_Models.csproj" />
+  </ItemGroup>
+
+</Project>

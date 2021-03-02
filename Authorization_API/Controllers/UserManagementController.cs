@@ -1,0 +1,84 @@
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Authorization_Models;
+using Authorization_Services.Interfaces;
+
+namespace Authorization_API.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class UserManagementController : ControllerBase
+    {
+        private readonly IUserService _service;
+
+        public UserManagementController(IUserService service)
+        {
+            _service = service;
+        }
+        [HttpGet("GetIdByLogin")]
+        public async Task<IActionResult> GetUserId(string login)
+        {
+            return Content((await _service.GetUserId(login)).ToString());
+        }
+
+        [HttpGet("GetAttempts")]
+        public async Task<IActionResult> GetAttemptsById(Guid id)
+        {
+            return new JsonResult(await _service.GetAttemptsById(id));
+        }
+
+        [HttpGet("AddToRole")]
+        public async Task<IActionResult> AddUserToRole(Guid userId, string role)
+        {
+            await _service.AddUserToRole(userId, role);
+            return Ok();
+        }
+
+        [HttpGet("RemoveFromRole")]
+        public async Task<IActionResult> RemoveUserFromRole(Guid userId, string role)
+        {
+            await _service.RemoveUserFromRole(userId, role);
+            return Ok();
+        }
+
+        [HttpGet("AddUserAttempt")]
+        public async Task<IActionResult> AddUserAttempt(Guid userId, Guid testId)
+        {
+            await _service.AddUserAttempt(userId, testId);
+            return Ok();
+        }
+
+        [HttpGet("ChangeUserLogin")]
+        public async Task<IActionResult> ChangeUserLogin(Guid userId, string newLogin)
+        {
+            var result = await _service.ChangeUserLogin(userId, newLogin);
+            if (result) return Ok();
+            return BadRequest();
+        }
+        [HttpGet("ChangeUserPassword")]
+        public async Task<IActionResult> ChangeUserPassword(Guid userId, string newPassword)
+        {
+            var result = await _service.ChangeUserPassword(userId, newPassword);
+            if (result) return Ok();
+            return BadRequest();
+        }
+        [HttpGet("ChangeUserFirstName")]
+        public async Task<IActionResult> ChangeUserFirstName(Guid userId, string newFirstName)
+        {
+            var result = await _service.ChangeUserFirstName(userId, newFirstName);
+            if (result) return Ok();
+            return BadRequest();
+        }
+        [HttpGet("ChangeUserLastName")]
+        public async Task<IActionResult> ChangeUserLastName(Guid userId, string newLastName)
+        {
+            var result = await _service.ChangeUserLastName(userId, newLastName);
+            if (result) return Ok();
+            return BadRequest();
+        }
+    }
+}

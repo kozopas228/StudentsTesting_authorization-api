@@ -1,0 +1,9 @@
+D:\Students Testing App\Authorization_API\Authorization_Models\bin\Debug\netcoreapp3.1\Authorization_Models.deps.json
+D:\Students Testing App\Authorization_API\Authorization_Models\bin\Debug\netcoreapp3.1\Authorization_Models.dll
+D:\Students Testing App\Authorization_API\Authorization_Models\bin\Debug\netcoreapp3.1\Authorization_Models.pdb
+D:\Students Testing App\Authorization_API\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.csprojAssemblyReference.cache
+D:\Students Testing App\Authorization_API\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.AssemblyInfoInputs.cache
+D:\Students Testing App\Authorization_API\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.AssemblyInfo.cs
+D:\Students Testing App\Authorization_API\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.csproj.CoreCompileInputs.cache
+D:\Students Testing App\Authorization_API\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.dll
+D:\Students Testing App\Authorization_API\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.pdb
