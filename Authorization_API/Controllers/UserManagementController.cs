@@ -74,5 +74,18 @@ namespace Authorization_API.Controllers
             if (result) return Ok();
             return BadRequest();
         }
+
+        [HttpPost("SaveAttemptToUser")]
+        public async Task<IActionResult> SaveAttempt(Guid userId, TestAttempt attempt)
+        {
+            var result = await _service.SaveAttempt(userId, attempt);
+
+            if (result)
+            {
+                return Ok();
+            }
+
+            return BadRequest();
+        }
     }
 }

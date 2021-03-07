@@ -15,5 +15,6 @@ namespace Authorization_Services.Interfaces
         Task<bool> ChangeUserLastName(Guid userId, string newLastName);
         Task<Guid> GetUserId(string login);
         Task<IEnumerable<TestAttempt>> GetAttemptsById(Guid userId);
+        Task<bool> SaveAttempt(Guid userId, TestAttempt attempt);
     }
 }

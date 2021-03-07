@@ -118,5 +118,28 @@ namespace Authorization_Services.Implementation
 
             return result;
         }
+
+        public async Task<bool> SaveAttempt(Guid userId, TestAttempt attempt)
+        {
+            var allAttempts = await _tempAttemptRepository.GetAllAsync();
+
+            var at = allAttempts.First(x => x.Id == attempt.Id);
+
+            if (at.UserId != userId)
+            {
+                return false;
+            }
+
+            at.TestState = attempt.TestState;
+
+            at.TestGrade = attempt.TestGrade;
+
+            at.TestId = attempt.TestId;
+
+            await _tempAttemptRepository.UpdateAsync(at);
+
+            return true;
+
+        }
     }
 }

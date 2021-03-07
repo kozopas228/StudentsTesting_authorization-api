@@ -44,6 +44,15 @@ namespace Authorization_API
 
         public virtual void ConfigureDependencies(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                        builder.AllowAnyOrigin()
+                            .AllowAnyMethod()
+                            .AllowAnyHeader());
+            });
+
             services.AddTransient<IAuthenticationService, AuthenticationService>();
             services.AddTransient<ITestAttemptCrudService, TestAttemptCrudService>();
             services.AddTransient<IUserCrudService, UserCrudService>();
@@ -95,6 +104,8 @@ namespace Authorization_API
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors();
 
             app.UseSwagger();
 
