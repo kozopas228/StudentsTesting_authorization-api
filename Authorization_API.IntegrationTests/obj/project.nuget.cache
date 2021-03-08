@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3LebQPtJfXV2NnWJmllzKcOUb2w+po+Vjas2Qqc6473V+eaJTJ2Dg0a9Q++JjScmFpp5ceZ2caVsMbVCR6XKPw==",
+  "dgSpecHash": "Unfe50MULm6WwdetVf3ZhAWjw6opMRB4Y59V1yWZyysXTXNOtkOCalepmY08rex1khvjkLM8t5Q4unqffcoP/g==",
   "success": true,
   "projectFilePath": "D:\\Students Testing App\\Authorization_API\\Authorization_API.IntegrationTests\\Authorization_API.IntegrationTests.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\CSharpSila\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\CSharpSila\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.7.1\\microsoft.testplatform.objectmodel.16.7.1.nupkg.sha512",
     "C:\\Users\\CSharpSila\\.nuget\\packages\\microsoft.testplatform.testhost\\16.7.1\\microsoft.testplatform.testhost.16.7.1.nupkg.sha512",
+    "C:\\Users\\CSharpSila\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\CSharpSila\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\CSharpSila\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
