@@ -19,18 +19,6 @@ namespace Authorization_API.IntegrationTests
             _fixture = new BaseTestFixture();
         }
 
-        //[Fact]
-        //public async Task Login_ReturnsToken()
-        //{
-        //    var lastUser = _fixture.DbContext.Users.Last();
-
-        //    var response = await _fixture.Client.PostAsync("api/Authentication/Login?login="+lastUser.Login+"&password="+lastUser.Password, new StringContent(""));
-
-        //    var token = await response.Content.ReadAsStringAsync();
-
-        //    Assert.False(string.IsNullOrEmpty(token));
-        //}
-
         [Fact]
         public async Task Login_WrongCredentials_ReturnsUnathorized()
         {

@@ -11,6 +11,5 @@ namespace Authorization_Models
         public string LastName { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
-        //public ICollection<TestAttempt> TestAttempts { get; set; }
     }
 }
