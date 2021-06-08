@@ -11,10 +11,14 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Authorization_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Students Testing App\\Authorization_API\\Authorization_API", "Authorization_API.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Authorization_Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Students Testing App\\Authorization_API\\Authorization_Data", "Authorization_Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Authorization_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Students Testing App\\Authorization_API\\Authorization_Models", "Authorization_Models.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Authorization_Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Students Testing App\\Authorization_API\\Authorization_Services", "Authorization_Services.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Authorization_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-ap" +
+    "i\\Authorization_API", "Authorization_API.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Authorization_Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-ap" +
+    "i\\Authorization_Data", "Authorization_Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Authorization_Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-ap" +
+    "i\\Authorization_Models", "Authorization_Models.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Authorization_Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-ap" +
+    "i\\Authorization_Services", "Authorization_Services.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Authorization_API.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

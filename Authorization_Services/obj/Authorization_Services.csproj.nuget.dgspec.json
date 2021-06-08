@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Students Testing App\\Authorization_API\\Authorization_Services\\Authorization_Services.csproj": {}
+    "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Services\\Authorization_Services.csproj": {}
   },
   "projects": {
-    "D:\\Students Testing App\\Authorization_API\\Authorization_Data\\Authorization_Data.csproj": {
+    "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Data\\Authorization_Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Students Testing App\\Authorization_API\\Authorization_Data\\Authorization_Data.csproj",
+        "projectUniqueName": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Data\\Authorization_Data.csproj",
         "projectName": "Authorization_Data",
-        "projectPath": "D:\\Students Testing App\\Authorization_API\\Authorization_Data\\Authorization_Data.csproj",
-        "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-        "outputPath": "D:\\Students Testing App\\Authorization_API\\Authorization_Data\\obj\\",
+        "projectPath": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Data\\Authorization_Data.csproj",
+        "packagesPath": "C:\\Users\\nik00\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSharpSila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\nik00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,8 +34,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Students Testing App\\Authorization_API\\Authorization_Models\\Authorization_Models.csproj": {
-                "projectPath": "D:\\Students Testing App\\Authorization_API\\Authorization_Models\\Authorization_Models.csproj"
+              "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Models\\Authorization_Models.csproj": {
+                "projectPath": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Models\\Authorization_Models.csproj"
               }
             }
           }
@@ -73,25 +76,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Students Testing App\\Authorization_API\\Authorization_Models\\Authorization_Models.csproj": {
+    "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Models\\Authorization_Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Students Testing App\\Authorization_API\\Authorization_Models\\Authorization_Models.csproj",
+        "projectUniqueName": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Models\\Authorization_Models.csproj",
         "projectName": "Authorization_Models",
-        "projectPath": "D:\\Students Testing App\\Authorization_API\\Authorization_Models\\Authorization_Models.csproj",
-        "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-        "outputPath": "D:\\Students Testing App\\Authorization_API\\Authorization_Models\\obj\\",
+        "projectPath": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Models\\Authorization_Models.csproj",
+        "packagesPath": "C:\\Users\\nik00\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSharpSila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\nik00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -136,25 +142,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Students Testing App\\Authorization_API\\Authorization_Services\\Authorization_Services.csproj": {
+    "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Services\\Authorization_Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Students Testing App\\Authorization_API\\Authorization_Services\\Authorization_Services.csproj",
+        "projectUniqueName": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Services\\Authorization_Services.csproj",
         "projectName": "Authorization_Services",
-        "projectPath": "D:\\Students Testing App\\Authorization_API\\Authorization_Services\\Authorization_Services.csproj",
-        "packagesPath": "C:\\Users\\CSharpSila\\.nuget\\packages\\",
-        "outputPath": "D:\\Students Testing App\\Authorization_API\\Authorization_Services\\obj\\",
+        "projectPath": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Services\\Authorization_Services.csproj",
+        "packagesPath": "C:\\Users\\nik00\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CSharpSila\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\nik00\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -167,11 +176,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Students Testing App\\Authorization_API\\Authorization_Data\\Authorization_Data.csproj": {
-                "projectPath": "D:\\Students Testing App\\Authorization_API\\Authorization_Data\\Authorization_Data.csproj"
+              "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Data\\Authorization_Data.csproj": {
+                "projectPath": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Data\\Authorization_Data.csproj"
               },
-              "D:\\Students Testing App\\Authorization_API\\Authorization_Models\\Authorization_Models.csproj": {
-                "projectPath": "D:\\Students Testing App\\Authorization_API\\Authorization_Models\\Authorization_Models.csproj"
+              "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Models\\Authorization_Models.csproj": {
+                "projectPath": "C:\\Users\\nik00\\OneDrive\\Рабочий стол\\Новая папка\\StudentsTesting_authorization-api\\Authorization_Models\\Authorization_Models.csproj"
               }
             }
           }
@@ -200,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

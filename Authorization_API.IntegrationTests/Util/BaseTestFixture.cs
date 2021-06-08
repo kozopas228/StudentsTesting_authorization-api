@@ -4,8 +4,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
 
-//using Microsoft.AspNetCore.Hosting;
-
 namespace Authorization_API.IntegrationTests.Util
 {
     public class BaseTestFixture

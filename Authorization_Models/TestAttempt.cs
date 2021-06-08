@@ -9,6 +9,5 @@ namespace Authorization_Models
         public TestState TestState { get; set; }
         public int TestGrade { get; set; }
         public Guid UserId { get; set; }
-        //public User User { get; set; }
     }
 }
