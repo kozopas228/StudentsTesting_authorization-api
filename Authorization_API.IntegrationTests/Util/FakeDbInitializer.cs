@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using Authorization_Data;
+﻿using Authorization_Data;
 using Authorization_Models;
 using AutoFixture;
+using System.Collections.Generic;
 
 namespace Authorization_API.IntegrationTests.Util
 {

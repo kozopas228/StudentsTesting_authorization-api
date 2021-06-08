@@ -1,12 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using Authorization_API.IntegrationTests.Util;
+using Authorization_Models;
+using AutoFixture;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Authorization_API.IntegrationTests.Util;
-using Authorization_Models;
-using AutoFixture;
-using Newtonsoft.Json;
 using Xunit;
 
 namespace Authorization_API.IntegrationTests
@@ -37,14 +37,14 @@ namespace Authorization_API.IntegrationTests
             var user = fixture.Create<User>();
 
             var response = await _fixture.Client.PostAsync("api/Authentication/Register" +
-                                                           "?login=" + user.Login + 
-                                                           "&password=" + user.Password+
-                                                           "&firstname="+user.FirstName+
-                                                           "&lastname="+user.LastName, new StringContent(""));
+                                                           "?login=" + user.Login +
+                                                           "&password=" + user.Password +
+                                                           "&firstname=" + user.FirstName +
+                                                           "&lastname=" + user.LastName, new StringContent(""));
 
             var stringResponse = JsonConvert.DeserializeObject<IEnumerable<User>>
                     (await _fixture.Client.GetStringAsync("api/UserCrud/"))
-                .First(x=>x.Login == user.Login);
+                .First(x => x.Login == user.Login);
 
             Assert.Equal(user.Login, stringResponse.Login);
         }

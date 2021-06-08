@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Authorization_API.IntegrationTests.Util;
+﻿using Authorization_API.IntegrationTests.Util;
 using Authorization_Models;
 using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace Authorization_API.IntegrationTests
@@ -49,13 +49,13 @@ namespace Authorization_API.IntegrationTests
         {
             var lastUser = _fixture.DbContext.Users.First();
 
-            var response = await _fixture.Client.GetAsync("api/UserManagement/ChangeRole?userId=" + lastUser.Id+"&role="+"test");
+            var response = await _fixture.Client.GetAsync("api/UserManagement/ChangeRole?userId=" + lastUser.Id + "&role=" + "test");
 
             var stringResponse = JsonConvert.DeserializeObject<IEnumerable<User>>
                 (await _fixture.Client.GetStringAsync("api/UserCrud/"))
-                .First(x=>x.Id==lastUser.Id);
+                .First(x => x.Id == lastUser.Id);
 
-            Assert.Equal("test",stringResponse.Role);
+            Assert.Equal("test", stringResponse.Role);
         }
 
 
@@ -82,7 +82,7 @@ namespace Authorization_API.IntegrationTests
 
             var stringResponse = JsonConvert.DeserializeObject<IEnumerable<User>>
                     (await _fixture.Client.GetStringAsync("api/UserCrud/"))
-                .First(x=>x.Id == lastUser.Id);
+                .First(x => x.Id == lastUser.Id);
 
             Assert.Equal("ahaha", stringResponse.Login);
         }
@@ -98,7 +98,7 @@ namespace Authorization_API.IntegrationTests
                     (await _fixture.Client.GetStringAsync("api/UserCrud/"))
                 .Last();
 
-            Assert.Equal("lolo", stringResponse.Password);
+            Assert.Equal(Authorization_Services.Hashing.GetHashString("lolo"), stringResponse.Password);
         }
 
         [Fact]
@@ -110,7 +110,7 @@ namespace Authorization_API.IntegrationTests
 
             var stringResponse = JsonConvert.DeserializeObject<IEnumerable<User>>
                     (await _fixture.Client.GetStringAsync("api/UserCrud/"))
-                .First(x=>x.Id == lastUser.Id);
+                .First(x => x.Id == lastUser.Id);
 
             Assert.Equal("aaaa", stringResponse.FirstName);
         }

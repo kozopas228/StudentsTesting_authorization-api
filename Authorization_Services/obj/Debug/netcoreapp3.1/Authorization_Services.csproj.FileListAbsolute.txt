@@ -12,3 +12,17 @@ D:\Students Testing App\Authorization_API\Authorization_Services\obj\Debug\netco
 D:\Students Testing App\Authorization_API\Authorization_Services\obj\Debug\netcoreapp3.1\Authorization_Services.csproj.CopyComplete
 D:\Students Testing App\Authorization_API\Authorization_Services\obj\Debug\netcoreapp3.1\Authorization_Services.dll
 D:\Students Testing App\Authorization_API\Authorization_Services\obj\Debug\netcoreapp3.1\Authorization_Services.pdb
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\bin\Debug\netcoreapp3.1\Authorization_Services.deps.json
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\bin\Debug\netcoreapp3.1\Authorization_Services.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\bin\Debug\netcoreapp3.1\Authorization_Services.pdb
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\bin\Debug\netcoreapp3.1\Authorization_Data.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\bin\Debug\netcoreapp3.1\Authorization_Models.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\bin\Debug\netcoreapp3.1\Authorization_Data.pdb
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\bin\Debug\netcoreapp3.1\Authorization_Models.pdb
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\obj\Debug\netcoreapp3.1\Authorization_Services.csprojAssemblyReference.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\obj\Debug\netcoreapp3.1\Authorization_Services.AssemblyInfoInputs.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\obj\Debug\netcoreapp3.1\Authorization_Services.AssemblyInfo.cs
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\obj\Debug\netcoreapp3.1\Authorization_Services.csproj.CoreCompileInputs.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\obj\Debug\netcoreapp3.1\Authorization_Services.csproj.CopyComplete
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\obj\Debug\netcoreapp3.1\Authorization_Services.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Services\obj\Debug\netcoreapp3.1\Authorization_Services.pdb

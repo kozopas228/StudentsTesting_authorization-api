@@ -1,16 +1,16 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using System.Collections.Generic;
 using Authorization_Data;
 using Authorization_Data.Implementation;
 using Authorization_Data.Interfaces;
 using Authorization_Models;
 using Authorization_Services.Implementation;
 using Authorization_Services.Interfaces;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using System.Collections.Generic;
 
 namespace Authorization_API
 {
@@ -61,7 +61,7 @@ namespace Authorization_API
             if (_currentEnvironment.IsEnvironment("Testing"))
             {
                 var conf = new ConfigurationBuilder()
-                    .AddInMemoryCollection(new Dictionary<string,string>
+                    .AddInMemoryCollection(new Dictionary<string, string>
                     {
                         ["Auth:Issuer"] = "authApi",
                         ["Auth:Audience"] = "gatewayApi",

@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Authorization_Data.Interfaces;
+using Authorization_Models;
+using Authorization_Services.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Authorization_Data.Interfaces;
-using Authorization_Models;
-using Authorization_Services.Interfaces;
 
 namespace Authorization_Services.Implementation
 {
@@ -34,7 +34,7 @@ namespace Authorization_Services.Implementation
             var allUsers = await _userRepository.GetAllAsync();
             var user = allUsers.First(x => x.Id == userId);
 
-            var attempt = new TestAttempt{TestGrade = 0, TestId = testId, TestState = TestState.NotDone, UserId = user.Id};
+            var attempt = new TestAttempt { TestGrade = 0, TestId = testId, TestState = TestState.NotDone, UserId = user.Id };
 
             await _tempAttemptRepository.CreateAsync(attempt);
 
@@ -66,7 +66,7 @@ namespace Authorization_Services.Implementation
                 return false;
             }
 
-            user.Password = newPassword;
+            user.Password = Hashing.GetHashString(newPassword);
 
             await _userRepository.UpdateAsync(user);
             return true;

@@ -1,14 +1,14 @@
-﻿using System;
+﻿using Authorization_Data.Interfaces;
+using Authorization_Models;
+using Authorization_Services.Interfaces;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Authorization_Data.Interfaces;
-using Authorization_Models;
-using Authorization_Services.Interfaces;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
 
 namespace Authorization_Services.Implementation
 {
@@ -76,7 +76,7 @@ namespace Authorization_Services.Implementation
                 authParams.Issuer,
                 authParams.Audience,
                 claims,
-                expires:DateTime.Now.AddSeconds(authParams.TokenLifetime),
+                expires: DateTime.Now.AddSeconds(authParams.TokenLifetime),
                 signingCredentials: credentials);
 
             return new JwtSecurityTokenHandler().WriteToken(token);

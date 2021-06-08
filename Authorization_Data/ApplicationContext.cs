@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Authorization_Data
 {
-    public class ApplicationContext :DbContext
+    public class ApplicationContext : DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<TestAttempt> TestAttempts { get; set; }
