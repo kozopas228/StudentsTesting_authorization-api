@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Authorization_API.IntegrationTests.Util;
 using Authorization_Models;
-using AutoFixture;
 using Newtonsoft.Json;
 using Xunit;
 
