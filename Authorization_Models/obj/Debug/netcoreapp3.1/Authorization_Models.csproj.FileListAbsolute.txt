@@ -7,3 +7,12 @@ D:\Students Testing App\Authorization_API\Authorization_Models\obj\Debug\netcore
 D:\Students Testing App\Authorization_API\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.csproj.CoreCompileInputs.cache
 D:\Students Testing App\Authorization_API\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.dll
 D:\Students Testing App\Authorization_API\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.pdb
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Models\bin\Debug\netcoreapp3.1\Authorization_Models.deps.json
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Models\bin\Debug\netcoreapp3.1\Authorization_Models.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Models\bin\Debug\netcoreapp3.1\Authorization_Models.pdb
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.csprojAssemblyReference.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.AssemblyInfoInputs.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.AssemblyInfo.cs
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.csproj.CoreCompileInputs.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_authorization-api\Authorization_Models\obj\Debug\netcoreapp3.1\Authorization_Models.pdb

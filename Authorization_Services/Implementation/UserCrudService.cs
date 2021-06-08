@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Authorization_Data.Interfaces;
+﻿using Authorization_Data.Interfaces;
 using Authorization_Models;
 using Authorization_Services.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Authorization_Services.Implementation
 {
@@ -25,6 +25,7 @@ namespace Authorization_Services.Implementation
 
         public async Task<bool> UpdateAsync(User user)
         {
+            user.Password = Hashing.GetHashString(user.Password);
             return await _userRepository.UpdateAsync(user);
         }
 
@@ -35,6 +36,7 @@ namespace Authorization_Services.Implementation
 
         public async Task CreateAsync(User user)
         {
+            user.Password = Hashing.GetHashString(user.Password);
             await _userRepository.CreateAsync(user);
         }
     }

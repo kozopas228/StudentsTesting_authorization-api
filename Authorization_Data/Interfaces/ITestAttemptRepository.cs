@@ -4,6 +4,6 @@ namespace Authorization_Data.Interfaces
 {
     public interface ITestAttemptRepository : IGenericRepository<TestAttempt>
     {
-        
+
     }
 }

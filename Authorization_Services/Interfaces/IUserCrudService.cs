@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Authorization_Models;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Authorization_Models;
 
 namespace Authorization_Services.Interfaces
 {

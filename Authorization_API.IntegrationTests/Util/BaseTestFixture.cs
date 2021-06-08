@@ -1,8 +1,8 @@
-﻿using System.Net.Http;
-using Authorization_Data;
+﻿using Authorization_Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
+using System.Net.Http;
 
 namespace Authorization_API.IntegrationTests.Util
 {

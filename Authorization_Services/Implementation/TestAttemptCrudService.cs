@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Authorization_Data.Interfaces;
+﻿using Authorization_Data.Interfaces;
 using Authorization_Models;
 using Authorization_Services.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Authorization_Services.Implementation
 {

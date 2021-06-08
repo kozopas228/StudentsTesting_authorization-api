@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Authorization_Models;
+using Authorization_Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
-using Authorization_Models;
-using Authorization_Services.Interfaces;
 
 namespace Authorization_API.Controllers
 {
