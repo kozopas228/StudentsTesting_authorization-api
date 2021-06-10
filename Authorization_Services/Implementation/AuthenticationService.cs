@@ -27,7 +27,7 @@ namespace Authorization_Services.Implementation
         public async Task<string> Login(string login, string password)
         {
             var allUsers = await _userRepository.GetAllAsync();
-            var user = allUsers.FirstOrDefault(x => x.Login == login && x.Password == password);
+            var user = allUsers.FirstOrDefault(x => x.Login == login && x.Password == Hashing.GetHashString(password));
 
             if (user == null)
             {
@@ -53,6 +53,7 @@ namespace Authorization_Services.Implementation
             }
 
             user.Role = "user";
+            user.Password = Hashing.GetHashString(user.Password);
 
             await _userRepository.CreateAsync(user);
             return true;
